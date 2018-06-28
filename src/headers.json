@@ -1,0 +1,28 @@
+{
+  "headers":[
+    {
+      "Header": "ID",
+      "accessor": "imdbID"
+    },
+    {
+      "Header": "Title",
+      "accessor": "title"
+    },
+    {
+      "Header": "Year",
+      "accessor": "year"
+    },
+    {
+      "Header": "Description",
+      "accessor": "description"
+    },
+    {
+      "Header": "Image File",
+      "accessor": "poster"
+    },
+    {
+      "Header": "Trailer ID",
+      "accessor": "trailer"
+    }
+  ]
+}
