@@ -72,7 +72,8 @@ class MyTable extends Component {
                   this.toggleRow(props.index);
                 }}
               />
-            )
+            ),
+            width: 45 // width size for column of checkboxes
           }
         ]
       }
