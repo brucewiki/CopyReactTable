@@ -72,7 +72,8 @@ class MyTable extends Component {
                   this.toggleRow(props.index);
                 }}
               />
-            )
+            ),
+            width: 45 // width size for column of checkboxes
           }
         ]
       }
@@ -173,8 +174,8 @@ class MyTable extends Component {
 
   render() {
     return (
-      <div id="myTable2">
-        <h1>Table 2</h1>
+      <div id="myTable1">
+        <h1>Table 1</h1>
         <button>
           Copy Selected Cells
         </button>

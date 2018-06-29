@@ -74,8 +74,7 @@ class MyTable extends Component {
               />
             )
           }
-        ],
-        width: 45 // width size for checkboxes
+        ]
       }
     ];
     // for each header to be created
@@ -83,6 +82,7 @@ class MyTable extends Component {
     for (c = 0; c < this.state.headers.length; c += 1) {
       const i = c + 1;
       columns.push({
+        // add to array "columns"
         // Header: create column checkbox for each header
         Header: () => (
           <input
